@@ -12,3 +12,9 @@ The main screen serves a couple purposes:
 Each `visual` object listens to five beat detections. Each beat detection can be set to listen to certain FFT bins.
 For example, the main beat listens to the lowest frequency FFT bin. 
 Depending on which of the five beat detections is triggered, different elements in a `visual` object can be activated.
+
+Screenshot of the controller module:
+
+![Controller](readme_plots/controller.png)
+
+To run, run `visualitis_5.pde` in your Processing environment.
